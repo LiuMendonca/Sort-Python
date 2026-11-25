@@ -4,6 +4,15 @@ Comparação de Merge Sort, Insertion Sort e Selection Sort com registros de cri
 ordenados pelo número do registro policial (`DR_NO`). Cada função ordena a lista
 recebida **no próprio lugar** e retorna um objeto `Metricas` com os contadores.
 
+## Database
+- **Obtenção e Configuração do Dataset**
+Este projeto utiliza a base de dados pública de Crimes da Cidade de Los Angeles (2020 a 2024), mantida pelo LAPD (*Los Angeles Police Department).
+- **Passo a Passo para Download:**
+  1. Baixar o arquivo CSV: Acesse o dataset no portal oficial [Data.gov - LA Crime Data](https://catalog.data.gov/dataset/crime-data-from-2020-to-present) ou faça o download direto via [Portal Data.lacity.org](https://data.lacity.org/api/v3/views/2nrs-mtv8/export.csv?accessType=DOWNLOAD).
+  2. Renomear e Organizar o Arquivo: Renomeie o arquivo baixado (que vem como `export.csv`) para `crime_data.csv`, coloque o arquivo em `data/`.
+- ou utilize o `crime_data_reduzido.csv`.
+
+
 ## Executar
 
 Coloque o dataset em `data/crime_data.csv` (ele não está incluído no repositório)
